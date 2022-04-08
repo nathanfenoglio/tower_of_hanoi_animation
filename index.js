@@ -59,7 +59,7 @@ function draw_one_pole_with_discs(one_poles_disc_arr, pole_num){
 }
 
 
-num_discs = 8;
+num_discs = 12;
 
 //an array to hold all of the timeline of where the discs are to animate through and animate after all has been calculated
 discs_on_poles_in_time = [];

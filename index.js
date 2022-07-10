@@ -1,5 +1,7 @@
 //it's working solves the hanoi discs on 3 pegs problem and stores all of the 
 //pole states in an array and then animates through them
+//to run: npm start
+//Serves on port localhost:9966 
 class Disc{
     constructor(width_num, disc_color){
         this.width_num = width_num;
@@ -101,6 +103,9 @@ horizontal_unit = one_third_of_screen_width / (num_discs + 1);
 
 console.log(discs_on_poles_in_time); // yup got all of the info
 console.log(discs_on_poles_in_time.length);
+//let's try to print out the sequence going left to right through the poles...
+//you accomplish this with the python version that draws the discs to the console
+//f/Python_Code/Messing/recursion_random_stuff python3 hanoi_draw.py
 
 let t = 0;
 

@@ -87,8 +87,8 @@ hanoi(num_discs, 0, 1, 2);
 var canvas = document.createElement('canvas');
 document.body.appendChild(canvas);
 
-canvas.width = window.screen.width;
-canvas.height = window.screen.height;
+canvas.width = window.innerWidth;
+canvas.height = window.innerHeight;
 
 var context = canvas.getContext('2d');
 
